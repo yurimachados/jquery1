@@ -1,5 +1,9 @@
 // instancia jquery e evita conflitos
-jQuery(function($) {
+// jQuery(function($) {
+
+$(document).ready(function(){
+
+    $("owl-carrousel").owlCarrousel();
 
     let titulos = $('h4') // tag
 
